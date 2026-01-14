@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>???????</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; }
+    input, button, select { padding: 8px; margin: 5px 0; width: 100%; box-sizing: border-box; }
+    button { background: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { opacity: 0.9; }
+    #message { margin-top: 10px; color: green; }
+  </style>
+</head>
+<body>
+  <h1>???????</h1>
+  <form id="signupForm">
+    <input type="text" id="name" placeholder="??" required />
+    <input type="text" id="employee_id" placeholder="??" required />
+    <input type="text" id="project" placeholder="????" required />
+    <input type="number" id="hours" placeholder="????(??)" step="0.5" min="0.5" required />
+    <button type="submit">??</button>
+  </form>
+  <div id="message"></div>
+
+  <hr />
+  <h2>??????</h2>
+  <input type="text" id="queryEmpId" placeholder="??????" />
+  <button onclick="fetchSummary()">??</button>
+  <div id="summaryResult"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
