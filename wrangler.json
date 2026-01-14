@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "volunteer",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "1c957c50-da6e-4a9a-9a0e-1acd284f4ff8",
+			"database_name": "volunteer_db"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
